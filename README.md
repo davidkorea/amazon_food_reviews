@@ -2,6 +2,11 @@
 
 # issue 1 -  str.maketrans('','',string.punctuation)
 ```python
+string.punctuation
+=> '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
+```
+
+```python
 import string
 # This uses the 3-argument version of str.maketrans with arguments (x, y, z) where 'x' and 'y'
 # must be equal-length strings and characters in 'x' are replaced by characters in 'y'. 
