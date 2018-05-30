@@ -9,7 +9,7 @@ import string
 translator = str.maketrans('', '', string.punctuation)
 s = 'string with "punctuation" inside of it! Does this work? I hope so.'
 print(s.translate(translator))
-=> string with punctuation inside of it Does this work I hope so
+=> 'string with punctuation inside of it Does this work I hope so'
 ```
 
 **Explaination**
