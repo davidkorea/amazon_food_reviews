@@ -1,5 +1,7 @@
 # amazon_food_reviews
-
+ 
+# Issue on logisticregression, will go on digging out!!!
+  
 # issue 1 -  str.maketrans('','',string.punctuation)
 ```python
 string.punctuation
